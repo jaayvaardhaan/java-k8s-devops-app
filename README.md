@@ -76,3 +76,5 @@ Instead of relying on heavy desktop graphical interfaces (GUIs) that consume exc
    .\k9s
    ```
    *(Inside K9s, type `:pod` to see the replica fleet, select a pod, and hit `l` to inspect traffic logs).*
+   ![K9s Cluster Pods Dashboard](./k9s-pods-dashboard.png)
+
