@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-app-deployment
+  labels:
+    app: java-web-app
+spec:
+  replicas: 3 # High-Pay Skill: K8s will automatically run 3 identical clones of your app!
+  selector:
+    matchLabels:
+      app: java-web-app
+  template:
+    metadata:
+      labels:
+        app: java-web-app
+    spec:
+      containers:
+      - name: java-container
+        image: my-first-java-app:latest # Points to the Docker image you built
+        imagePullPolicy: Never # Tells K8s to look locally on your laptop instead of the internet
+        ports:
+        - containerPort: 8080
