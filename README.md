@@ -1,5 +1,5 @@
+[![Java App CI-CD Pipeline](https://github.com/jaayvaardhaan/java-k8s-devops-app/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/jaayvaardhaan/java-k8s-devops-app/actions/workflows/ci-cd.yaml)
 # Java DevOps Pipeline: Multi-Stage Containerization & Local Cluster Orchestration 🚀
-[![Java App CI-CD Pipeline](https://github.com/jaayvaardhaan/java-k8s-devops-app.git)](https://github.com/jaayvaardhaan/java-k8s-devops-app.git)
 A comprehensive, hands-on portfolio project tracking the transition of a raw, local Java application into a highly available, load-balanced microservices infrastructure using **Docker** and **Kubernetes**. 
 
 This repository documents my end-to-end implementation of the "Learn in Public" methodology, highlighting structural optimizations, advanced container builds, and terminal-driven cluster monitoring.
